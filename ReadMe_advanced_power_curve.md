@@ -76,4 +76,4 @@ data/
 - Clara Kerber
 - Luisa Grimm
 
-![advanced_power_curve](image.png)
+![advanced_power_curve] (http://127.0.0.1:49314/)
