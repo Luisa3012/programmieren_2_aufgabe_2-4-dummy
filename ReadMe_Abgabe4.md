@@ -85,5 +85,6 @@ EKG-Messdaten müssen als Text-Dateien vorliegen mit einer Spalte numerischer Me
 
 - Luisa Grimm
 - Clara Kerber
-![Website1](Screenshot(252).png)
-![Website2](Screenshot(253).png)
+
+![Website1](screenshot-252.png)
+![Website2](screenshot-253.png)
