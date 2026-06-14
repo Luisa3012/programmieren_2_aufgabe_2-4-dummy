@@ -21,7 +21,7 @@ Personen aus einer Datenbank anzeigen und EKG-Tests mit Visualisierung von Peaks
 ### Person-Klasse
 - **Attribute**: `id`, `firstname`, `lastname`, `date_of_birth`, `gender`, `picture_path`, `ekg_tests`
 - **Methoden**:
-  - `load_by_id(id, database)`: Lädt eine Person aus Datenbank
+  - `load_by_id()`: Lädt eine Person aus Datenbank
   - `calc_age()`: Berechnet aktuelles Alter basierend auf Geburtsjahr
   - `calc_max_heart_rate()`: Berechnet maximale Herzfrequenz basierend auf Alter und Geschlecht
   - `load_person_data()`: Lädt alle Personen aus der JSON-Datenbank
@@ -29,10 +29,10 @@ Personen aus einer Datenbank anzeigen und EKG-Tests mit Visualisierung von Peaks
 ### Ekgdata-Klasse
 - **Attribute**: `id`, `date`, `result_link`, `peaks`, `heart_rate`
 - **Methoden**:
-  - `load_by_id(id, person_database)`: Lädt einen EKG-Test anhand der ID
-  - `find_peaks()`: Erkennt Peaks in den EKG-Daten und speichert sie als Attribut
-  - `estimate_hr()`: Berechnet die Herzfrequenz basierend auf erkannten Peaks
-  - `plot_time_series()`: Erstellt Visualisierung der EKG-Daten mit markierten Peaks
+  - `load_by_id()`: Lädt einen EKG-Test anhand der ID
+  - `find_peaks()`: Erkennt Peaks in den EKG-Daten und speichert als Attribut
+  - `estimate_hr()`: Berechnet die Herzfrequenz basierend auf Peaks
+  - `plot_time_series()`: Visualisierung der EKG-Daten mit markierten Peaks
 
 ---
 
